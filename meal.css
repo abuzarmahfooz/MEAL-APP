@@ -1,0 +1,106 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@500&family=Mooli&family=Nabla&family=Open+Sans&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@500&family=Mooli&family=Nabla&family=Open+Sans&family=Oswald:wght@500&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@500&family=Dancing+Script:wght@700&family=Mooli&family=Nabla&family=Open+Sans&family=Oswald:wght@500&family=Roboto:wght@500&display=swap');
+
+/* Set global styles */
+*{
+ box-sizing: border-box;
+ 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background:url("img/beautiful_beach_waves-wallpaper-3840x2160.jpg");
+    background-size: cover;
+}
+
+/* Style the header using Bootstrap classes */
+header {
+    background: rgb(2,0,36);
+    background: linear-gradient(124deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Style the container */
+.container{
+    background: rgb(2,0,36);
+    background: linear-gradient(124deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    margin: auto;
+    max-width: 800px;
+    display: flex;
+    border-radius: 10%;
+    margin-top: 25px;
+}
+
+.container p{
+    align-items: left;
+    color: floralwhite;
+    font-family: 'Mooli', sans-serif;
+    padding: 25px;
+}
+
+.container  img{
+    align-items: left;
+    width: 200px;
+    height: 150px;
+    border-radius: 10%;
+    margin-left: 25px;
+}
+
+h1{
+    color: floralwhite;
+    font-family: 'Dancing Script', cursive;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+    color: floralwhite;
+    margin-left:20px;
+    margin-top: 20px;
+}
+
+input{
+    font-family: 'Mooli', sans-serif;
+}
+
+/* Style the buttons using ID */
+#searchBtn{
+    background: rgb(2,0,36);
+    background: linear-gradient(124deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+#randomBtn{
+    background: rgb(2,0,36);
+    background: linear-gradient(124deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    cursor: pointer;
+    border-left:0;
+    border-radius: 10%;
+    margin-left: 10px;
+}
+
+#favoriteBtn{
+    background: rgb(2,0,36);
+    background: linear-gradient(124deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    cursor: pointer;
+    border-left:0;
+    border-radius: 5%;
+    margin-left: 10px;
+}
+
+/* Style the footer  */
+footer {
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Style the input field using Bootstrap classes */
+#searchInput {
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+/* ... (other custom styles) ... */
