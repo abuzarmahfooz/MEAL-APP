@@ -7,12 +7,13 @@
     box-sizing: border-box;
     font-family: 'Roboto Slab', serif;}
 
-body {
+body{
     width: 100%;
     background-size: cover;
-    background: rgb(205,233,242);
-background: linear-gradient(90deg, rgba(205,233,242,1) 0%, rgba(141,216,242,1) 69%, rgba(66,193,237,1) 100%);
-    color: white;
+    background: linear-gradient(300deg, #00bfff, #ff4c6796, #ef8172ac);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  
 }
 
 
