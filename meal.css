@@ -1,106 +1,99 @@
-/* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@500&family=Mooli&family=Nabla&family=Open+Sans&family=Roboto:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@500&family=Mooli&family=Nabla&family=Open+Sans&family=Oswald:wght@500&family=Roboto:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@500&family=Dancing+Script:wght@700&family=Mooli&family=Nabla&family=Open+Sans&family=Oswald:wght@500&family=Roboto:wght@500&display=swap');
 
-/* Set global styles */
-*{
- box-sizing: border-box;
- 
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;}
 
 body {
-    font-family: Arial, sans-serif;
-    background:url("img/beautiful_beach_waves-wallpaper-3840x2160.jpg");
+    width: 100%;
     background-size: cover;
+    background: rgb(205,233,242);
+background: linear-gradient(90deg, rgba(205,233,242,1) 0%, rgba(141,216,242,1) 69%, rgba(66,193,237,1) 100%);
+    color: white;
 }
 
-/* Style the header using Bootstrap classes */
-header {
-    background: rgb(2,0,36);
-    background: linear-gradient(124deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-    text-align: center;
-    padding: 1rem;
+
+
+
+
+/* header heading section */
+#heading {
+    margin-top: 100px;
+    color: #FF7400;
+    font-weight: boldest;
 }
 
-/* Style the container */
-.container{
-    background: rgb(2,0,36);
-    background: linear-gradient(124deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+
+/* header navbar */
+#nav {
+    background-color: #e9ffff; 
+}
+
+/* header search bar section */
+#search-bar {
+    max-width: 600px;
+}
+
+#search-bar input {
+    height: 50px;
+    border-radius: 20px;
+}
+
+
+/* meal card */
+#card {
+    background-color: #e9ffff;
+    padding: 10px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: #733c3c;
+    font-weight: bold;
+}
+
+#card img {
+    
+}
+
+
+/* meal details container */
+#meal-details{
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color:#e9ffff ;
+    color:  #747f7f
+}
+#meal-header{
+    width: 70%;
     margin: auto;
-    max-width: 800px;
+}
+#meal-thumbail img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#details{
     display: flex;
-    border-radius: 10%;
-    margin-top: 25px;
-}
-
-.container p{
+    flex-direction: column;
     align-items: left;
-    color: floralwhite;
-    font-family: 'Mooli', sans-serif;
-    padding: 25px;
+    justify-content: center;
+    
+    color: #733c3c;
+    font-family: custom;
+     font-weight: bold;
+}
+#meal-instruction{
+    margin: auto;
+    text-align: justify;
+
 }
 
-.container  img{
-    align-items: left;
-    width: 200px;
-    height: 150px;
-    border-radius: 10%;
-    margin-left: 25px;
-}
 
-h1{
-    color: floralwhite;
-    font-family: 'Dancing Script', cursive;
+/* favourites offcanvus */
+#favourites-body{
+    background-color:#badae5 ;
 }
-
-h2{
-    font-family: 'Oswald', sans-serif;
-    color: floralwhite;
-    margin-left:20px;
-    margin-top: 20px;
-}
-
-input{
-    font-family: 'Mooli', sans-serif;
-}
-
-/* Style the buttons using ID */
-#searchBtn{
-    background: rgb(2,0,36);
-    background: linear-gradient(124deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-    cursor: pointer;
-    border-radius: 10%;
-}
-
-#randomBtn{
-    background: rgb(2,0,36);
-    background: linear-gradient(124deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-    cursor: pointer;
-    border-left:0;
-    border-radius: 10%;
-    margin-left: 10px;
-}
-
-#favoriteBtn{
-    background: rgb(2,0,36);
-    background: linear-gradient(124deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-    cursor: pointer;
-    border-left:0;
-    border-radius: 5%;
-    margin-left: 10px;
-}
-
-/* Style the footer  */
-footer {
-    text-align: center;
-    padding: 1rem;
-}
-
-/* Style the input field using Bootstrap classes */
-#searchInput {
-    padding: 0.5rem;
-    border-radius: 5px;
-}
-
-/* ... (other custom styles) ... */
